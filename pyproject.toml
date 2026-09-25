@@ -1,2 +1,12 @@
+[project]
+name = "duckduckgo-search-api"
+version = "0.1.0"
+description = "DuckDuckGo Search API by @its_aritra_nath"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "serpapi",
+]
+
 [tool.vercel]
 entrypoint = "api.search:app"
